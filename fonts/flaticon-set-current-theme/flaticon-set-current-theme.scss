@@ -1,0 +1,289 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?bc21487c13a4dbc376423ce42839506c") format("truetype"),
+url("./flaticon.woff?bc21487c13a4dbc376423ce42839506c") format("woff"),
+url("./flaticon.woff2?bc21487c13a4dbc376423ce42839506c") format("woff2"),
+url("./flaticon.eot?bc21487c13a4dbc376423ce42839506c#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bc21487c13a4dbc376423ce42839506c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "agriculture": "\f101",
+    "pests": "\f102",
+    "analysis": "\f103",
+    "setting": "\f104",
+    "farm": "\f105",
+    "crop": "\f106",
+    "animal": "\f107",
+    "environment": "\f108",
+    "nature": "\f109",
+    "drone": "\f10a",
+    "conveyor": "\f10b",
+    "monitor": "\f10c",
+    "cloud": "\f10d",
+    "plant": "\f10e",
+    "feeder": "\f10f",
+    "greenhouse": "\f110",
+    "hydroponic": "\f111",
+    "smart-farm": "\f112",
+    "quality": "\f113",
+    "irrigation": "\f114",
+    "chemistry": "\f115",
+    "statistics": "\f116",
+    "product": "\f117",
+    "nature-1": "\f118",
+    "information": "\f119",
+    "information-1": "\f11a",
+    "location": "\f11b",
+    "cow": "\f11c",
+    "farmer": "\f11d",
+    "smartphone": "\f11e",
+    "soil": "\f11f",
+    "warehouse": "\f120",
+    "weather": "\f121",
+    "sprinkle": "\f122",
+    "tractor": "\f123",
+    "wheat": "\f124",
+    "pest": "\f125",
+    "honeycomb": "\f126",
+    "flower": "\f127",
+    "dairy-products": "\f128",
+    "duck": "\f129",
+    "eggs": "\f12a",
+    "fruit-tree": "\f12b",
+    "harvest": "\f12c",
+    "growing-plant": "\f12d",
+    "growing-seed": "\f12e",
+    "fruit": "\f12f",
+    "pond": "\f130",
+    "market": "\f131",
+    "farm-house": "\f132",
+    "sickle": "\f133",
+    "haystack": "\f134",
+    "hen": "\f135",
+    "hydroponic-1": "\f136",
+    "carrot": "\f137",
+    "corn": "\f138",
+    "onion": "\f139",
+    "seeding": "\f13a",
+    "planting": "\f13b",
+    "planting-1": "\f13c",
+    "seeds": "\f13d",
+    "planting-2": "\f13e",
+    "wheat-1": "\f13f",
+    "tomato": "\f140",
+    "sawing": "\f141",
+    "wheat-sack": "\f142",
+);
+
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-pests:before {
+    content: map-get($flaticon-map, "pests");
+}
+.flaticon-analysis:before {
+    content: map-get($flaticon-map, "analysis");
+}
+.flaticon-setting:before {
+    content: map-get($flaticon-map, "setting");
+}
+.flaticon-farm:before {
+    content: map-get($flaticon-map, "farm");
+}
+.flaticon-crop:before {
+    content: map-get($flaticon-map, "crop");
+}
+.flaticon-animal:before {
+    content: map-get($flaticon-map, "animal");
+}
+.flaticon-environment:before {
+    content: map-get($flaticon-map, "environment");
+}
+.flaticon-nature:before {
+    content: map-get($flaticon-map, "nature");
+}
+.flaticon-drone:before {
+    content: map-get($flaticon-map, "drone");
+}
+.flaticon-conveyor:before {
+    content: map-get($flaticon-map, "conveyor");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-cloud:before {
+    content: map-get($flaticon-map, "cloud");
+}
+.flaticon-plant:before {
+    content: map-get($flaticon-map, "plant");
+}
+.flaticon-feeder:before {
+    content: map-get($flaticon-map, "feeder");
+}
+.flaticon-greenhouse:before {
+    content: map-get($flaticon-map, "greenhouse");
+}
+.flaticon-hydroponic:before {
+    content: map-get($flaticon-map, "hydroponic");
+}
+.flaticon-smart-farm:before {
+    content: map-get($flaticon-map, "smart-farm");
+}
+.flaticon-quality:before {
+    content: map-get($flaticon-map, "quality");
+}
+.flaticon-irrigation:before {
+    content: map-get($flaticon-map, "irrigation");
+}
+.flaticon-chemistry:before {
+    content: map-get($flaticon-map, "chemistry");
+}
+.flaticon-statistics:before {
+    content: map-get($flaticon-map, "statistics");
+}
+.flaticon-product:before {
+    content: map-get($flaticon-map, "product");
+}
+.flaticon-nature-1:before {
+    content: map-get($flaticon-map, "nature-1");
+}
+.flaticon-information:before {
+    content: map-get($flaticon-map, "information");
+}
+.flaticon-information-1:before {
+    content: map-get($flaticon-map, "information-1");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-cow:before {
+    content: map-get($flaticon-map, "cow");
+}
+.flaticon-farmer:before {
+    content: map-get($flaticon-map, "farmer");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-soil:before {
+    content: map-get($flaticon-map, "soil");
+}
+.flaticon-warehouse:before {
+    content: map-get($flaticon-map, "warehouse");
+}
+.flaticon-weather:before {
+    content: map-get($flaticon-map, "weather");
+}
+.flaticon-sprinkle:before {
+    content: map-get($flaticon-map, "sprinkle");
+}
+.flaticon-tractor:before {
+    content: map-get($flaticon-map, "tractor");
+}
+.flaticon-wheat:before {
+    content: map-get($flaticon-map, "wheat");
+}
+.flaticon-pest:before {
+    content: map-get($flaticon-map, "pest");
+}
+.flaticon-honeycomb:before {
+    content: map-get($flaticon-map, "honeycomb");
+}
+.flaticon-flower:before {
+    content: map-get($flaticon-map, "flower");
+}
+.flaticon-dairy-products:before {
+    content: map-get($flaticon-map, "dairy-products");
+}
+.flaticon-duck:before {
+    content: map-get($flaticon-map, "duck");
+}
+.flaticon-eggs:before {
+    content: map-get($flaticon-map, "eggs");
+}
+.flaticon-fruit-tree:before {
+    content: map-get($flaticon-map, "fruit-tree");
+}
+.flaticon-harvest:before {
+    content: map-get($flaticon-map, "harvest");
+}
+.flaticon-growing-plant:before {
+    content: map-get($flaticon-map, "growing-plant");
+}
+.flaticon-growing-seed:before {
+    content: map-get($flaticon-map, "growing-seed");
+}
+.flaticon-fruit:before {
+    content: map-get($flaticon-map, "fruit");
+}
+.flaticon-pond:before {
+    content: map-get($flaticon-map, "pond");
+}
+.flaticon-market:before {
+    content: map-get($flaticon-map, "market");
+}
+.flaticon-farm-house:before {
+    content: map-get($flaticon-map, "farm-house");
+}
+.flaticon-sickle:before {
+    content: map-get($flaticon-map, "sickle");
+}
+.flaticon-haystack:before {
+    content: map-get($flaticon-map, "haystack");
+}
+.flaticon-hen:before {
+    content: map-get($flaticon-map, "hen");
+}
+.flaticon-hydroponic-1:before {
+    content: map-get($flaticon-map, "hydroponic-1");
+}
+.flaticon-carrot:before {
+    content: map-get($flaticon-map, "carrot");
+}
+.flaticon-corn:before {
+    content: map-get($flaticon-map, "corn");
+}
+.flaticon-onion:before {
+    content: map-get($flaticon-map, "onion");
+}
+.flaticon-seeding:before {
+    content: map-get($flaticon-map, "seeding");
+}
+.flaticon-planting:before {
+    content: map-get($flaticon-map, "planting");
+}
+.flaticon-planting-1:before {
+    content: map-get($flaticon-map, "planting-1");
+}
+.flaticon-seeds:before {
+    content: map-get($flaticon-map, "seeds");
+}
+.flaticon-planting-2:before {
+    content: map-get($flaticon-map, "planting-2");
+}
+.flaticon-wheat-1:before {
+    content: map-get($flaticon-map, "wheat-1");
+}
+.flaticon-tomato:before {
+    content: map-get($flaticon-map, "tomato");
+}
+.flaticon-sawing:before {
+    content: map-get($flaticon-map, "sawing");
+}
+.flaticon-wheat-sack:before {
+    content: map-get($flaticon-map, "wheat-sack");
+}

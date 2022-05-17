@@ -1,0 +1,27 @@
+/*
+ * Shortcode: section-title.scss
+ * -----------------------------------------------
+*/
+.tm-sc-section-title {
+	.title-wrapper {
+		.subtitle {
+		    font-size: $section-title-subtitle-font-size;
+		}
+
+		.paragraph {
+			padding: 0 50px;
+			margin-top: 40px;
+			line-height: 30px;
+		}
+	}
+	&.text-left {
+		.title-wrapper {
+			.title {
+				&:after {
+					left: 0;
+					transform: translateX(0%);
+				}
+			}
+		}
+	}
+}
